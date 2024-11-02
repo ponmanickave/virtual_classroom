@@ -55,7 +55,7 @@ def login():
 @app.route('/dashboard')
 def dashboard():
     course_urls = [
-        'https://visualclassbucket.s3.ap-southeast-2.amazonaws.com/Python+codes.pdf,
+        'https://visualclassbucket.s3.ap-southeast-2.amazonaws.com/Python+codes.pdf',
         'https://visualclassbucket.s3.ap-southeast-2.amazonaws.com/PYTHON+PROGRAMMING+NOTES.pdf'
     ]
     
