@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to AWS Virtual Classroom</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">AWS Virtual Classroom</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/login">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="header-section text-white text-center" style="background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,140,1) 35%, rgba(0,212,255,1) 100%); padding: 100px 0;">
+        <div class="container">
+            <h1>Welcome to AWS Virtual Classroom</h1>
+            <p>Your gateway to learning with the latest technology</p>
+            <a href="/register" class="btn btn-primary btn-lg">Register Now</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <p>We provide a virtual classroom experience hosted on AWS, offering a wide range of courses in cloud computing, AI, and modern technologies. Learn from experts in the industry, and download learning materials straight from the cloud.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="data:image/jpeg;base64,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" alt="AI-related student" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2>Our Courses</h2>
+            <p>Explore our available courses in cutting-edge technology fields such as:</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Cloud Computing</h5>
+                            <p class="card-text">Learn how to leverage AWS for cloud-based applications.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Artificial Intelligence</h5>
+                            <p class="card-text">Dive deep into AI and machine learning technologies.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Python Programming</h5>
+                            <p class="card-text">Master Python for automation, data science, and development.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="/register" class="btn btn-outline-primary">Join and Access All Courses</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <address>
+                <strong>AWS Virtual Classroom</strong><br>
+                123 Learning Lane, Hyderabad, India<br>
+                Email: support@aws-virtualclassroom.com
+            </address>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 AWS Virtual Classroom. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

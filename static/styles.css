@@ -1,0 +1,25 @@
+/* Example CSS */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.header-section {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,140,1) 35%, rgba(0,212,255,1) 100%);
+    padding: 100px 0;
+}
+
+.header-section h1 {
+    font-size: 2.5rem;
+}
+
+.list-group-item {
+    font-size: 1.25rem;
+}
