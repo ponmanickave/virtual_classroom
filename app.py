@@ -10,8 +10,8 @@ def get_db_connection():
     return mysql.connector.connect(
         host='vcdb1.cdyqs4sg6t8m.ap-southeast-2.rds.amazonaws.com',
         user='admin',
-        password='azam_1234',
-        database='course_app'
+        password='Dhonikm23',
+        database='vc_db'
     )
 # Registration Route
 @app.route('/register', methods=['GET', 'POST'])
